@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Speech API</title>
+    <link rel="stylesheet" media="screen" href="css/main.css">
+    <link rel="stylesheet" media="screen" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  </head>
+  <body>
+
+    <div class="container">
+      <h2>Web Speech API <!--<small>show your speech</small>--></h2>
+      <div class="row lang">
+        <div class="col-md-2">
+          <select id="select-lang" class="form-control">
+            <option value="ja-JP">日本語</option>
+            <option value="en-US">English</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <!-- TODO: change to rec button -->
+          <button id="start" class="btn">Start</button>
+          <button id="stop"  class="btn">Stop</button>
+          <span id="state" class="help-inline">Push start button</span>
+        </div>
+      </div>
+      <label class="speaking-label">now speaking...</label>
+      <blockquote>
+        <div id="speaking"></div>
+      </blockquote>
+      <div id="text"></div>
+    </div>
+
+    <script src="js/lib/jquery-1.9.0.min.js" type="text/javascript"></script>
+    <script src="js/lib/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/webspeech.min.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "webspeechapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "browser-sync": "^1.7.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^1.7.2",
+    "gulp": "^3.8.10",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taise",
+  "license": "MIT"
+}

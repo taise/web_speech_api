@@ -1,0 +1,36 @@
+.lang {
+  padding: 10px 0px;
+}
+
+#text {
+    position: relative;
+    padding: 15px;
+    margin: 0 -15px 15px;
+    background-color: #fff;
+    border-width: 3px;
+    border-color: #bbb;
+    border-radius: 4px 4px 0 0;
+    box-shadow: none;
+}
+
+#start:hover, #stop:hover {
+    transition: all .5s;
+    background-color: #d9534f;
+}
+
+.sentence {
+    padding: 2px 5px;
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+    background-color:#dddddd;
+}
+
+.sentence:hover {
+    transition: all .5s;
+    background-color: #ff6;
+}
+
+.speaking-label {
+    padding-top: 15px;
+}
